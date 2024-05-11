@@ -22,7 +22,7 @@ const ItemListContainer = ({greeting})=> {
   return (
     <div>
         <h1 className="text-xl font-bold p-3">{greeting}</h1>
-        <ItemList productos={productos} />
+        <ItemList productos={productos} className="grid grid-cols-3 gap-10  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3" />
     </div>
   )
 }
