@@ -20,7 +20,7 @@ function Checkout() {
             // Verificar cada objeto en el array cart
             cart.map(item => {
                 if (!item.id || !item.nombre || !item.precio || !item.quantity) {
-                    throw new Error("Los objetos en el carrito deben tener los campos 'id', 'name', 'price' y 'quantity' definidos");
+                    throw new Error("Los objetos en el carrito deben tener los campos 'id', 'nombre', 'precio' y 'quantity' definidos");
                 }
             });
     
@@ -40,7 +40,6 @@ function Checkout() {
         } finally {
             setLoading(false);
         }
-        //console.log(usuario)
     }      
 
     if(loading){
