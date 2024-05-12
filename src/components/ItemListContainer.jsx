@@ -7,12 +7,16 @@ import { getProducts, getProductsByCategory } from '../funciones.js';
 
 
 
+
 const ItemListContainer = ({greeting})=> {
+
   const [productos, setProductos] = useState([]);
+  
   
   const {categoria} = useParams();
   
   useEffect(() => {
+    
     if(categoria){
       getProductsByCategory(categoria) 
       .then(resultado=>{
@@ -26,6 +30,7 @@ const ItemListContainer = ({greeting})=> {
      }
     }, [categoria]);
   
+ 
 
   return (
     <div>
