@@ -115,7 +115,7 @@ El componente `Footer` representa el pie de página de la aplicación. Lo he imp
 ## Deploy
 Para realizar el Deploy de mi proyecto "MF Gamer" he utilizado el repositorio de Vercel, el cual permite visualizar la página a traves del siguiente link:
 **Link:**
-[Proyecto Final ReactJS](https://proyecto-final-fernandez-iota.vercel.app/)
+[Proyecto Final ReactJS](https://proyecto-final-fernandez-sooty.vercel.app/)
 
 ### Capturas de imágenes:
 
