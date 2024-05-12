@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 function Header(){
     return (
         
-        <header className="bg-orange-200 p-2 flex shadow-md ">
+        <header className="bg-orange-200  shadow-md flex">
            <NavBar/>
         </header>
     )

@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 const Item= ({id, nombre, imagen, categoria, precio,stock})=> {
   return (
-    <article className="card bg-orange-300 shadow-sm" style={{width: '18rem'}}>
+    <article className="card bg-orange-300 shadow-sm hover:scale-105" style={{width: '18rem'}}>
         <header>
             <h2 className="font-bold p-2">
                 {nombre}

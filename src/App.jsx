@@ -5,7 +5,7 @@ import Main from './components/Main.jsx';
 import { CartProvider } from "./context/CartContext.jsx";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import './components/NavBar.css'
+
 import  './App.css'
 
 
