@@ -10,7 +10,9 @@ Soy Matias Fernandez y vengo a presentarles mi proyecto "MF Gaming". El mismo es
 4. [Tecnologías Implementadas](#tecnologías-utilizadas)
 5. [Componentes](#componentes)
     - [App](#app)
+    - [Header](#header)
     - [NavBar](#navbar)
+    - [Main](#main)
     - [ItemListContainer](#itemlistcontainer)
     - [ItemDetailContainer](#itemdetailcontainer)
     - [Cart](#cart)
@@ -18,7 +20,8 @@ Soy Matias Fernandez y vengo a presentarles mi proyecto "MF Gaming". El mismo es
     - [Checkout](#checkout)
     - [Footer](#footer)
     - [Page](#page)
-6. [Deploy y Visualización](#deploy)
+6. [Deploy](#deploy)
+7. [Capturas de imágenes](#capturas-de-imágenes)
 
 ## Instalación
 
@@ -115,9 +118,10 @@ El componente `Footer` representa el pie de página de la aplicación. Lo he imp
 ## Deploy
 Para realizar el Deploy de mi proyecto "MF Gamer" he utilizado el repositorio de Vercel, el cual permite visualizar la página a traves del siguiente link:
 **Link:**
-[Proyecto Final ReactJS](https://proyecto-final-fernandez-sooty.vercel.app/)
+[Proyecto Final "MF Gaming" en ReactJS](https://proyecto-final-fernandez-sooty.vercel.app/)
 
-### Capturas de imágenes sobre:
+---
+## Capturas de imágenes:
 
 #### Pantalla Principal
 ![Captura Principal](/src/multimedia/PaginaPrincipal.png)
