@@ -30,7 +30,7 @@ function NavBar() {
           </button>
           <div className="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasDarkNavbar"      aria-labelledby="offcanvasDarkNavbarLabel">
              <div className="offcanvas-header">
-                <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" ></button>
+                <button type="button" class="btn-close btn-close-dark bg-orange-300" data-bs-dismiss="offcanvas" >X</button>
              </div>
              <div className="offcanvas-body navbar-nav justify-content-start items-center flex-grow-1 pe-3">
               <div> <img src="https://yt3.googleusercontent.com/lIPqzDapkueNly7PPgNHsaxRbpaIubc1YXFjVjIwp9MTa2jUsgD_j8beueFFtzGb4Ds_QHvCqg=s900-c-k-c0x00ffffff-no-rj" alt="Foto Logo" width={120}/></div>
